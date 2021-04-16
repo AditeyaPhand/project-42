@@ -45,7 +45,8 @@ function setup() {
 
 function draw() { 
   background(0);
-
+  drawSprites();
+  
   stroke("white");
   textSize(20);
   fill("white");
@@ -92,7 +93,7 @@ function draw() {
 
   
 
-  drawSprites();
+  
 }
 
 function spawnFood(){
